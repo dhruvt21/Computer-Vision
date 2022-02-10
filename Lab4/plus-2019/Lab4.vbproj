@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{3AC53D6D-8774-43A1-A773-00C43996D6B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Lab4</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Debug\interface.res" />
+    <Content Include="Debug\plus.pdb" />
+    <Content Include="Debug\plus.vcxproj.FileListAbsolute.txt" />
+    <Content Include="Debug\vc142.pdb" />
+    <Content Include="globals.h" />
+    <Content Include="icon1.ico" />
+    <Content Include="interface.rc" />
+    <Content Include="main.c" />
+    <Content Include="plus.dsw" />
+    <Content Include="plus.vcxproj.filters" />
+    <Content Include="resource.h" />
+    <Content Include="UpgradeLog.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\plus\v16\.suo" />
+    <None Include=".vs\plus\v16\Browse.VC.db" />
+    <None Include=".vs\plus\v16\ipch\AutoPCH\13b670ec5e612d2d\MAIN.ipch" />
+    <None Include="Debug\main.obj" />
+    <None Include="Debug\plus.Build.CppClean.log" />
+    <None Include="Debug\plus.exe.recipe" />
+    <None Include="Debug\plus.log" />
+    <None Include="Debug\plus.tlog\CL.command.1.tlog" />
+    <None Include="Debug\plus.tlog\CL.read.1.tlog" />
+    <None Include="Debug\plus.tlog\CL.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link-cvtres.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link-cvtres.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link-rc.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link-rc.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928-cvtres.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928-cvtres.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928-rc.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928-rc.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link.2928.write.1.tlog" />
+    <None Include="Debug\plus.tlog\link.command.1.tlog" />
+    <None Include="Debug\plus.tlog\link.read.1.tlog" />
+    <None Include="Debug\plus.tlog\link.write.1.tlog" />
+    <None Include="Debug\plus.tlog\plus.lastbuildstate" />
+    <None Include="Debug\plus.tlog\rc.command.1.tlog" />
+    <None Include="Debug\plus.tlog\rc.read.1.tlog" />
+    <None Include="Debug\plus.tlog\rc.write.1.tlog" />
+    <None Include="Debug\plus.tlog\unsuccessfulbuild" />
+    <None Include="Debug\RCa00660" />
+    <None Include="Debug\RCa02732" />
+    <None Include="Debug\RCa11500" />
+    <None Include="Debug\RCa12568" />
+    <None Include="Debug\RCa12796" />
+    <None Include="Debug\RCa12864" />
+    <None Include="plus.ncb" />
+    <None Include="plus.opt" />
+    <None Include="plus.plg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backup\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

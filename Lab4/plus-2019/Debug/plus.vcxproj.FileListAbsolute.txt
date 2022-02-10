@@ -1,0 +1,4 @@
+C:\Teaching\MachineVision\code\plus-2019\Debug\plus.exe
+C:\Teaching\MachineVision\code\plus-2019\Debug\plus.pdb
+C:\Users\dhruv\OneDrive\Desktop\Semester 1\IntroDuction To computer Vision\GUI Computer vision\plus-2019\Debug\plus.exe
+C:\Users\dhruv\OneDrive\Desktop\Semester 1\IntroDuction To computer Vision\AllAssignments\GUILAB4\plus-2019\Debug\plus.exe
