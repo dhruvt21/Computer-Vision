@@ -1,3 +1,0 @@
-C:\Teaching\MachineVision\code\plus-2019\Debug\plus.exe
-C:\Teaching\MachineVision\code\plus-2019\Debug\plus.pdb
-C:\Users\devendergorak\Documents\Computer vision project\plus-2019\Debug\plus.exe
